@@ -1,0 +1,12 @@
+name: jrstation
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11.13
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - -r requirements.txt
